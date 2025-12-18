@@ -12,12 +12,12 @@ Apply power, check consumption 15 to 20 mA  Check any of the Vs points for 6.1 t
 Check Pin 2 of  IC6 for clock, adjust L3 for roughly 60 kHz, not critical, but once set, leave it!
  
 ### Modulator balance.
-Check TP1 (Pin 5, IC 4, or the convenient leg of the resistor near it) This is the modulator output.
-No audio input, select 0dB switch to minimise input noise.  Adjust VR1 and VR2 to achieve modulator balance. Repeat until  minimised, some interaction. Less than 1mV on TP1 is good.  
+Check TP1 (Pin 5, IC 4, or the convenient leg of the resistor near it) with a high-impedance (10x) oscilloscope and probe.  This is the modulator output.
+No audio input, select 0dB switch to minimise input noise.  Adjust VR1 and VR2 to achieve modulator balance. Repeat until  minimised, some interaction. Less than 1mV peak to peak on TP1 is good.  
 
 ### RF Bandpass Filter
-Apply 1 kHz tone, 1mV to input, speech light should light. threshold is ~ 0.5mV on "LO" setting, 150 mV on "HI" setting.
-Set 100mV on signal generator and "LO" input, 6dB of clip
+Apply 1 kHz tone, 1mV to the audio input, speech light should light. Threshold is ~ 0.5mV on "LO" setting, 150 mV on "HI" setting.
+Set 100mV on signal generator and "LO" input, 6dB of clip on the push buttons
 Adjust  L1 for max audio output with 3kHz audio input
 Adjust L2 for max audio output with 300Hz audio input
  
